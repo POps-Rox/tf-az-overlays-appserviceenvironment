@@ -41,7 +41,7 @@ provider "azurerm" {
 }
 
 module "app_service_environment" {
-  source  = "azurenoops/overlays-app-service-environment/azurerm"
+  source  = "POps-Rox/tf-az-overlays-app-service-environment/azurerm"
   version = "x.x.x"
 
   # By default, this module will create a resource group and 
